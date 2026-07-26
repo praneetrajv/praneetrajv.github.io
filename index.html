@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praneet Raj V | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">&lt;PRV /&gt;</a>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <section class="hero" id="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <p class="hero-greeting">Hello, my name is</p>
+                <h1 class="hero-name">Praneet Raj V</h1>
+                <h2 class="hero-title">CS Engineer <span class="accent">&bull;</span> Security Researcher <span class="accent">&bull;</span> Open Source Contributor</h2>
+                <p class="hero-description">I build secure systems and contribute to open source. Currently researching digital forensics and building privacy-preserving ML platforms.</p>
+                <div class="hero-links">
+                    <a href="https://github.com/praneetrajv" target="_blank" class="btn btn-outline"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="https://linkedin.com/in/praneet-raj-veera" target="_blank" class="btn btn-outline"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    <a href="mailto:praneetraj.v@gmail.com" class="btn btn-primary"><i class="fas fa-envelope"></i> Contact</a>
+                </div>
+            </div>
+            <div class="hero-photo">
+                <div class="photo-placeholder">
+                    <i class="fas fa-user"></i>
+                    <span>Add Photo</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>scroll down</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section-title"><span class="accent">01.</span> About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a Computer Science student at <span class="accent">PES University</span>, Bengaluru, with a passion for cybersecurity, open source, and building impactful software.</p>
+                    <p>As a Summer Research Intern at the <span class="accent">Center for Information Security, Forensics and Cyber Resilience</span>, I develop graph-based digital forensic systems for tracing image origins across social media networks.</p>
+                    <p>I actively contribute to open source projects like <span class="accent">Prowler</span> (cloud security) and enjoy participating in hackathons, having placed in the top 4 at FASTATHON and been a finalist at Smart India Hackathon 2025.</p>
+                </div>
+                <div class="about-details">
+                    <div class="detail-card">
+                        <i class="fas fa-graduation-cap accent"></i>
+                        <div>
+                            <h4>B.Tech in Computer Science</h4>
+                            <p>PES University (Electronic City Campus)</p>
+                            <p class="accent">CGPA: 7.38 | Expected 2027</p>
+                        </div>
+                    </div>
+                    <div class="detail-card">
+                        <i class="fas fa-certificate accent"></i>
+                        <div>
+                            <h4>Certifications</h4>
+                            <p>Oracle Cloud Infrastructure AI Foundations</p>
+                            <p>Oracle Data Platform Foundations</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="experience">
+        <div class="container">
+            <h2 class="section-title"><span class="accent">02.</span> Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Summer Research Intern</h3>
+                            <span class="accent">Jun 2025 &ndash; Present</span>
+                        </div>
+                        <h4>Center for Information Security, Forensics and Cyber Resilience</h4>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> Bengaluru, India</p>
+                        <ul class="timeline-details">
+                            <li>Developed a graph-based digital forensic system to identify the origin of viral images in social media networks</li>
+                            <li>Engineered a multi-factor image source detection algorithm using SIFT, Perceptual Hashing, network centrality, and temporal features</li>
+                            <li>Implemented the application using Python, NetworkX, and OpenCV</li>
+                            <li>Presented system architecture and research findings to academic stakeholders</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="projects">
+        <div class="container">
+            <h2 class="section-title"><span class="accent">03.</span> Projects</h2>
+            <div class="projects-grid">
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-folder-open accent"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/praneetrajv/prowler" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-name">Prowler Open Source Contributions</h3>
+                    <p class="project-desc">Contributed to Prowler, a widely used open-source cloud security and compliance platform. Authored PR #11816 implementing a security check to detect hardcoded secrets within AWS Batch job definitions.</p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>AWS</span>
+                        <span>Cloud Security</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-folder-open accent"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/praneetrajv/DemoGen" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-name">DemoGen</h3>
+                    <p class="project-desc">AI-powered demo video generator combining LLM-driven planning (OpenRouter, Gemini), browser automation (Selenium, Playwright), and text-to-speech narration to generate demo videos from plain text prompts.</p>
+                    <div class="project-tags">
+                        <span>FastAPI</span>
+                        <span>Docker</span>
+                        <span>LLM</span>
+                        <span>FFmpeg</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-folder-open accent"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/praneetrajv/Fed-Nas-Phase-2" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-name">Federated Learning Platform</h3>
+                    <p class="project-desc">Privacy-preserving federated learning platform for heterogeneous healthcare systems with distributed client-server architecture. Secure FastAPI services with JWT authentication and adaptive model deployment.</p>
+                    <div class="project-tags">
+                        <span>FastAPI</span>
+                        <span>PostgreSQL</span>
+                        <span>Docker</span>
+                        <span>REST APIs</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-folder-open accent"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/praneetrajv" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-name">Image Source Detection</h3>
+                    <p class="project-desc">Digital forensics system for image provenance and source tracing across social media reposts using SIFT, Perceptual Hashing, and a weighted graph-scoring algorithm combining similarity, timestamps, and network centrality.</p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>NetworkX</span>
+                        <span>OpenCV</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-folder-open accent"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/praneetrajv/Event-Snap" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-name">Event-Snap</h3>
+                    <p class="project-desc">Cross-platform Flutter mobile application for photographers to manage and showcase their event photography work with a clean dashboard interface.</p>
+                    <div class="project-tags">
+                        <span>Flutter</span>
+                        <span>Dart</span>
+                        <span>Mobile</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-folder-open accent"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/praneetrajv/DBMS_proj" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-name">DBMS Project</h3>
+                    <p class="project-desc">Full-stack web application built with React.js and Vite, featuring a SQL database backend for data management and a modern responsive frontend interface.</p>
+                    <div class="project-tags">
+                        <span>React</span>
+                        <span>SQL</span>
+                        <span>Vite</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="skills">
+        <div class="container">
+            <h2 class="section-title"><span class="accent">04.</span> Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code accent"></i> Languages</h3>
+                    <div class="skill-items">
+                        <span>Java</span>
+                        <span>Python</span>
+                        <span>JavaScript</span>
+                        <span>SQL</span>
+                        <span>C</span>
+                        <span>HTML/CSS</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-layer-group accent"></i> Frameworks</h3>
+                    <div class="skill-items">
+                        <span>React.js</span>
+                        <span>FastAPI</span>
+                        <span>Flutter</span>
+                        <span>Docker</span>
+                        <span>REST APIs</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-database accent"></i> Databases</h3>
+                    <div class="skill-items">
+                        <span>PostgreSQL</span>
+                        <span>MongoDB</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools accent"></i> Tools</h3>
+                    <div class="skill-items">
+                        <span>Git</span>
+                        <span>GitHub</span>
+                        <span>Linux</span>
+                        <span>Amazon S3</span>
+                        <span>OpenCV</span>
+                        <span>NetworkX</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="achievements">
+        <div class="container">
+            <h2 class="section-title"><span class="accent">05.</span> Achievements</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <i class="fas fa-trophy accent"></i>
+                    <h3>Top 4</h3>
+                    <p>FASTATHON, SRM University All-India Hackathon</p>
+                </div>
+                <div class="achievement-card">
+                    <i class="fas fa-medal accent"></i>
+                    <h3>Top 10</h3>
+                    <p>Health-based Ideathon, PES University</p>
+                </div>
+                <div class="achievement-card">
+                    <i class="fas fa-award accent"></i>
+                    <h3>Finalist</h3>
+                    <p>Smart India Hackathon (SIH) 2025</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="contact">
+        <div class="container">
+            <h2 class="section-title"><span class="accent">06.</span> Get In Touch</h2>
+            <div class="contact-content">
+                <p class="contact-text">I'm currently looking for new opportunities. Whether you have a question or just want to say hi, feel free to reach out!</p>
+                <div class="contact-links">
+                    <a href="mailto:praneetraj.v@gmail.com" class="btn btn-primary btn-lg">
+                        <i class="fas fa-envelope"></i> Say Hello
+                    </a>
+                    <a href="https://github.com/praneetrajv" target="_blank" class="btn btn-outline btn-lg">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="https://linkedin.com/in/praneet-raj-veera" target="_blank" class="btn btn-outline btn-lg">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Built by <span class="accent">Praneet Raj V</span></p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
